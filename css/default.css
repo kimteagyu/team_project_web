@@ -83,19 +83,19 @@ color:#fff;
 .header .menu-toggle-btn{
 float:right;
 width:20px;
-margin-top:4px;
+margin-top:6px;
 cursor:pointer;
 }
     
 .header .menu-toggle-btn span{
 display:block;
 width:100%;
-height:2px;
+height:5px;
 background:#161314;
 }
     
 .header .menu-toggle-btn span:nth-child(2){
-margin:5px 0;
+margin:7px 0;
 }
 
 /* 슬라이더 영역 CSS */
@@ -198,7 +198,7 @@ opacity:0.86;
 .cover-section .cover-list li .info{
 position:absolute;
 top:0;
-left:23px;
+left:25px;
 z-index:20;
 opacity:0;
 transition:all 0.3s;
@@ -211,13 +211,13 @@ opacity:1;
     
 .cover-section .cover-list li .info h1{
 margin-bottom:8px;
-font-size:30px;
+font-size:70px;
 color:#fff;
 font-weight:normal;
 }
     
 .cover-section .cover-list li .info span{
-font-size:25px;
+font-size:50px;
 color:orange;
 }
     
