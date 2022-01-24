@@ -23,14 +23,15 @@
 <body>
   <header>
     <div>
-      <a href="Index.jsp" target="_self"><img src="image/photo_Essay.png" alt="logo"/>
+      <a href="Index.jsp" target="_self">
+      <img src="image/photo_Essay.png" alt="logo" />
 		  <br></br>
 		  <br></br>
 	      
       <!--<h1 class="sec-tit-sm"><strong>
             <sh>Photo Essay</sh>
           </strong></h1>-->
-      <h1><strong>PhotoEssay</strong></h1>
+      <h1 text size=60px><strong>PhotoEssay</strong></h1>
       </a>
     </div>
 	</header>
@@ -51,29 +52,35 @@
   <div class="centered">
       <br>
 	  <br>
-	  &nbsp;&nbsp;&nbsp;<h2 text style="color: gray">로그인</h2>
+	  &nbsp;&nbsp;&nbsp;<h2 text style="color: gray" align="center">&nbsp;&nbsp;&nbsp;&nbsp;로그인</h2>
 <form action="login.do" method="post", name="frm">
-	<table>
-	
+	<!--<table>-->
+	<br>
 	<tr>
 		
-		<td><h3 text style="color: blue" align="center;">아이디</h3></td>
+		<th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;아이디</th>
 		<td><input type="text" name="userid" value="${userid}"></td>
 		</tr>
-		
-		<br><tr>
-		<td><h3 text style="color: orange" align="center">암&nbsp;&nbsp;호</h3></td>
+		<br>
+		<br>
+		<tr>
+		<th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;암&nbsp;&nbsp;호</th>
 		<td><input type="password" name="pwd" size="20"></td>
 		</tr>
+		<br>
 		<tr>
+		<br>
 		<td colspan="2" align="center">
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<input type="submit" value="로그인" onclick="return loginCheck()">&nbsp;&nbsp;
 			<input type="reset" value="취소">&nbsp;&nbsp; 
 			<input type="button" value="회원가입" onclick="location.href='join.do'">
 			</td>
 		</tr></br>
-	</table>
+	<!--</table>-->
 
 </form>
         
@@ -102,14 +109,13 @@
 <footer>
     <div class="footer">
                   <p class="copyright">Address. 서울특별시 영등포구 영중로8길 6 6층|TEL. 02-3667-3688|E-Mail.humanec@naver.com|</br> 
-		                           <br>CEO. 계현진 권욱현 김기역 김성환 김태규</br>
+		                           <br>CEO. 계현진 권욱현 김기역 김성환 김소진 김태규</br>
 	                               <br>© 2022.PhotoEssay(세상 사는 이야기).All Rights Reserved.</br>
 	
       <ul class="">
         <li><a href="#">서비스 소개</a></li>
         <li><a href="#">이용정보처리방침</a></li>
-        <li><a href="#">개인정보처리방침</a></li>
-		  
-		  </footer>
+        <li><a href="#">개인정보처리방침</a></li>	 
+		  </footer> 
 </div>
 </html>

@@ -217,8 +217,8 @@ input {
 footer {
   bottom: 0;
   left: 0;
-  height: 100px;
-  width: 100%;
+  height: auto;
+  width: auto;
   display: flex;
   background-color: #323232;
   /*position: relative;*/
